@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &403250650850581449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 403250650850581448}
+  - component: {fileID: 403250650850581455}
+  m_Layer: 0
+  m_Name: Level_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &403250650850581448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403250650850581449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &403250650850581455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403250650850581449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 175ebcf991dd91a4c90303272dc6cd41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointPosition: {fileID: 0}
+  deathParticle: {fileID: 7818213115028199654, guid: df4c00578a6496243b38f80aa0fe1958,
+    type: 3}
+  respawnParticle: {fileID: 4605883809415184114, guid: ad122ecde63abfc49af42ae24cc9e73e,
+    type: 3}
+  heartsUI: {fileID: 0}
+  heartSprites:
+  - {fileID: 2442532499480063333, guid: 6009b81195ac6dd4592f3433344c0c81, type: 3}
+  - {fileID: -5234086204170094210, guid: 6009b81195ac6dd4592f3433344c0c81, type: 3}
+  - {fileID: -4689395579542031383, guid: 6009b81195ac6dd4592f3433344c0c81, type: 3}
+  - {fileID: -5182846855406794116, guid: 6009b81195ac6dd4592f3433344c0c81, type: 3}
+  - {fileID: -169054648603324365, guid: 6009b81195ac6dd4592f3433344c0c81, type: 3}
+  - {fileID: -2611634296249000364, guid: 6009b81195ac6dd4592f3433344c0c81, type: 3}
+  delayTime: 1
